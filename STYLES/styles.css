@@ -204,6 +204,9 @@ html,body{
     font-weight: bold;
 
 }
+.dropdown-menu a:hover{
+    color: rgb(32, 65, 163);
+}
 
 
     
@@ -263,3 +266,13 @@ html,body{
         
     }
 }    
+@media (max-width: 280px) {
+    .dropdown_menu1.open{
+        width: 220px;
+    }
+    .dropdown_menu1{
+       
+        width: 220px;
+        
+    }
+}   
