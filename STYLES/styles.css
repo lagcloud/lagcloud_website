@@ -8,7 +8,6 @@
     font-family: myFont;
     src: url(Avenir1);
 }
-
 body {
     height: 100vh;
     background-color: white;
@@ -137,14 +136,18 @@ header {
 
 
 
-#About{
+#myhome{
     margin-left: 20px;
 }
-#About a{
+#myhome a{
     padding: 10px 10px 10px 10px;
 }
-
-
+#myabout{
+    margin-left: 20px;
+}
+#myabout a{
+    padding: 10px 10px 10px 10px;
+}
 
 html,body{
     width: 100%;
@@ -165,23 +168,41 @@ html,body{
     color: blue;
     font-family: myFont;
 }
+
+.container-fluid .row{
+    padding: 60px 110px;
+}
+
 .container-fluid h1{
-    padding: 30px 105px;
-    font-size: 44px;
-    font-family: myFont;
+    font-size: 50px;
     font-weight: bolder;
 }
 .container-fluid p{
-    padding: 0px 105px;
-    font-size: 25px;
-    font-family: myFont;
+    font-size: 35px;
     font-weight: lighter;
-    margin-top: -20px;
 }
 .container-fluid1{
-    margin-top: 80px;
+    padding: 120px 110px;
 }
-
+.container-fluid1 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container-fluid1 p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.container-fluid2{
+    padding: 10px 110px;
+}
+.container-fluid2 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container-fluid2 p{
+    font-size: 25px;
+    font-weight: lighter;
+}
 .row{
     padding: 30px 116px;
     row-gap: 1rem;
@@ -190,6 +211,18 @@ html,body{
     
     
 }
+#mycontent h1{
+    font-size: 44px;
+    padding: 0px 9px;
+}
+
+#mycontent p{
+    padding: 0px 9px;
+}
+#mycontent2 {
+    padding: 40px 6px;
+}
+
 .card-body .btn {
     background-color: black;
     border: 0ch;
@@ -204,33 +237,72 @@ html,body{
     font-weight: bold;
 
 }
-
-
-    
-
+.dropdown-menu a:hover{
+    color: rgb(68, 100, 197);
+}
 
 @media (max-width: 1280px){
     .container-fluid h1{
-        padding: 30px 16px;
-        
+        font-size: 40px;
         
     }
     .container-fluid p{
-        padding: 0px 16px;
-        
+        font-size: 25px;
         
     }
+    .container-fluid .row{
+        padding: 30px 20px;
+    }
+    .container-fluid1{
+        padding: 30px 20px;
+    }
+    .container-fluid h1{
+        font-size: 30px;
+        
+    }
+    .container-fluid p{
+        font-size: 20px;
+        
+    }
+    
     .container-fluid1 h1{
-        padding: 0px 38px;
-        font-weight: bolder;
-        font-size: 14px;
-    }
-    .row{
-        padding: 30px 32px;
+        font-size: 30px;
         
+    }
+    .container-fluid1 p{
+        font-size: 20px;
+        
+    }
+    .container-fluid2{
+        padding: 30px 20px;
+    }
+    .container-fluid2 h1{
+        font-size: 30px;
+        
+    }
+    .container-fluid2 p{
+        font-size: 20px;
+        
+    }
+    #mycontent h1{
+        padding: 5px 10px;
+    }
+    #mycontent p{
+        padding: 10px 10px;
+    }
+    #mycontent2 .row {
+        padding: 5px 26px;
     }
 
+    
+    
+
+    
+    
 }
+
+
+
 @media (max-width: 992px){
     .Navbar .links,
     .Navbar .active_btn{
@@ -242,24 +314,50 @@ html,body{
     .dropdown_menu1{
         display: block;
     }
-    .container-fluid h1{
+    
+    .container-fluid .row{
         padding: 30px 15px;
+    }
+    .container-fluid1{
+        padding: 30px 15px;
+    }
+    .container-fluid2{
+        padding: 30px 15px;
+    }
+    #mycontent h1{
+        padding: 5px 14px;
         font-size: 25px;
-        
+    }
+    #mycontent p{
+        padding: 10px 14px;
+        font-size: 20px;
+    }
+    #mycontent2 .row {
+        padding: 5px 24px;
+    }
+
+
+    
+    
+}
+@media (max-width: 280px) {
+    .row{
+        padding: 30px 10px;
+    }
+    .container-fluid h1{
+        font-size: 35px;
+        font-weight: bolder;
     }
     .container-fluid p{
-        padding: 0px 15px;
-        font-size: 12px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .dropdown_menu1.open{
+        width: 220px;
+    }
+    .dropdown_menu1{
+       
+        width: 220px;
         
     }
-    .container-fluid1 h1{
-        padding: 0px 25px;
-        font-weight: bolder;
-        font-size: 25px;
-    }
-    .row{
-        padding: 30px 25px;
-        row-gap: 1rem;
-        
-    }
-}    
+}   
