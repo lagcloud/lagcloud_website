@@ -136,10 +136,16 @@ header {
 
 
 
-#About{
+#myhome{
     margin-left: 20px;
 }
-#About a{
+#myhome a{
+    padding: 10px 10px 10px 10px;
+}
+#myabout{
+    margin-left: 20px;
+}
+#myabout a{
     padding: 10px 10px 10px 10px;
 }
 
