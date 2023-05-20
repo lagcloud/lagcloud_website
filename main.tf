@@ -28,6 +28,27 @@ resource "google_storage_bucket_object" "error_page" {
   bucket       = google_storage_bucket.lagcloud-solutions.id
 }
 
+resource "google_storage_bucket_object" "services_page" {
+  name         = "services.html"
+  source       = "services.html"
+  content_type = "text/html"
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
+resource "google_storage_bucket_object" "styles_css" {
+  name         = "styles.css"
+  source       = "styles/styles.css"
+  content_type = "text/css"
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
+resource "google_storage_bucket_object" "lagcloud_logo" {
+  name         = "lagcloud_logo.png"
+  source       = "images/lagcloud_logo.png"
+  content_type = "image/png"
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
 # Make bucket public by granting allUsers READER access
 resource "google_storage_bucket_access_control" "public_rule" {
   bucket = google_storage_bucket.lagcloud-solutions.id
