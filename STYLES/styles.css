@@ -48,7 +48,7 @@ li {
 .dropdown-item:hover{
     color: blue !important;
 }
-.nav-item:hover .dropdown-menu {display: block;}
+
 @media (max-width: 992px){
     
     .navbar-nav{
@@ -68,6 +68,13 @@ li {
         
     }
     .container-fluid2 p{
+        font-size: 25px !important;
+    }
+    .container-fluid3 h1{
+        font-size: 30px !important;
+        
+    }
+    .container-fluid3 p{
         font-size: 25px !important;
     }
     #mycard .btn{
