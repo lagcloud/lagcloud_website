@@ -3,9 +3,10 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,67 +14,75 @@
     <title>Lagcloud-Solutions</title>
   </head>
   <body>
-    <header>
-        <div class="Navbar">
-            <div class="logo"><a href="index.html"><img src="images/lagcloud-removebg-preview.png" class="logo"></a></div>
-            <ul class="links">
-                <li id="myhome"><a href="">HOME</a></li>
-                <li id="myabout"><a href="">ABOUT</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="services.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    SERVICES
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item" href="">Web Hosting</a></li>
-                    <li><a class="dropdown-item" href="">Consultation</a></li>
-                  </ul>
-                <li><a href="" class="active_btn">CONTACT US</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/lagcloud-removebg-preview.png" style="width: 100px; height: 100px;" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; margin-right: 15px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">ABOUT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="services.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="services.html">All Services</a></li>
+            <li><a class="dropdown-item" href="">Consultation</a></li>
             
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
-        <div class="dropdown_menu1">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="" class="active_btn">CONTACT US</a></li>
-        </div>
+          </ul>
+          <li id="mycontactus">
+            <a class="nav-link" href="">CONTACT US </a>
+        </li>
+          
+        </li>  
         
-    </header>
-    <script>
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropDownMenu = document.querySelector('.dropdown_menu1')
-
-        toggleBtn.onclick = function () {
-            dropDownMenu.classList.toggle('open')
-
-        }
-    </script>
-    <div class="container-fluid">
-        <div class="row align-items-start">
-          <div class="col-sm-6">
-            <h1>Your Technology Partner For Digital Transformation</h1>
-            <p>lagcloud helps you design and develop high tech software solutions</p>
-            
-          </div>
-          <div class="col-sm-6">
-            <img src="images/lagcloudimage.jpg" class="img-fluid" alt="responsiveness">
-          </div>
-        </div>
-    <div class="container-fluid1">
-        <h1>Your Technology Partner</h1>
-        <p>At Lagcloud-Solutions, we're passionate about empowering businesses through innovative software solutions. Our team consists of skilled developers and tech enthusiasts who specialize in custom software development tailored to your unique needs.
-            Our approach is agile, allowing us to deliver faster and better results while still maintaining a high level of quality. We prioritize transparency, communication, and customer satisfaction in everything we do. By building long-term relationships with our clients, we're able to work with you to achieve your business goals.
-            We understand that every business is unique, which is why we take the time to understand your needs and create customized software solutions that meet your specific requirements.</p>
-
+      </ul>
+      
     </div>
-    <div class="container-fluid2">
-        <h1>What We Offer</h1>
-        <p>At Lagcloud-solutions, we offer a wide range of services designed to help your business succeed in the digital age. Our experienced team of developers and tech experts is dedicated to providing high-quality software solutions that are tailored to your unique needs and requirements.
-            Some of the services we offer include custom software development, mobile app development, web development, and software testing. We also provide consulting services to help you identify potential opportunities for growth and improvement in your business processes.
-            When you work with us, you'll get access to cutting-edge technology and innovative solutions that can help you stay ahead of the competition. Our agile development process ensures that we can deliver faster and better results without sacrificing quality, and our commitment to transparency and communication means you'll always be kept in the loop.</p>
+  </div>
+</nav>
+<div class="container-fluid1" style="padding: 0px 28px; ">
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <h1 style="font-size: 44px; font-weight: bolder;">Your Technology Partner For Digital Transformation</h1>
+        <p style="font-size: 30px;">lagcloud helps you design and develop high tech software solutions</p>
+        
+      </div>
+      <div class="col-sm-6">
+        <img src="images/lagcloudimage.jpg" class="img-fluid" alt="responsiveness">
+      </div>
+    </div>
+<div class="container-fluid2" style="padding: 0px 4px; margin-bottom: 80px;margin-top: 70px;">
+    <h1 style="font-size: 44px;font-weight: bolder;">Your Technology Partner</h1>
+    <p style="font-size: 25px;">At Lagcloud-Solutions, we're passionate about empowering businesses through innovative software solutions. Our team consists of skilled developers and tech enthusiasts who specialize in custom software development tailored to your unique needs.
+        Our approach is agile, allowing us to deliver faster and better results while still maintaining a high level of quality. We prioritize transparency, communication, and customer satisfaction in everything we do. By building long-term relationships with our clients, we're able to work with you to achieve your business goals.
+        We understand that every business is unique, which is why we take the time to understand your needs and create customized software solutions that meet your specific requirements.</p>
 
-    </div>    
+</div>
+<div class="container-fluid2" style="padding: 0px 4px;">
+    <h1 style="font-size: 44px; font-weight: bolder;">What We Offer</h1>
+    <p style="font-size: 25px;">At Lagcloud-solutions, we offer a wide range of services designed to help your business succeed in the digital age. Our experienced team of developers and tech experts is dedicated to providing high-quality software solutions that are tailored to your unique needs and requirements.
+        Some of the services we offer include custom software development, mobile app development, web development, and software testing. We also provide consulting services to help you identify potential opportunities for growth and improvement in your business processes.
+        When you work with us, you'll get access to cutting-edge technology and innovative solutions that can help you stay ahead of the competition. Our agile development process ensures that we can deliver faster and better results without sacrificing quality, and our commitment to transparency and communication means you'll always be kept in the loop.</p>
+
+</div>    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
