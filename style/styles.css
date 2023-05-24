@@ -11,13 +11,10 @@ body {
     background-size: cover;
     background-position: center;
 }
+/*---Header----*/
 li {
     list-style: none;
 }
-
-
-/*---Header----*/
-
 .navbar-brand img{
     width: 100px;
     height: 100px;
@@ -28,10 +25,12 @@ li {
 .dropdown-menu a:hover{
     color: blue;
 }
+/*---Header----*/
 #mycontactus{
     background-color: black;
     position: 2rem 2rem;
     letter-spacing: 1px;
+    border-radius: 7px;
     
 }
 #mycontactus a{
