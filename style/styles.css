@@ -25,6 +25,9 @@ li {
 .nav-link:hover{
     color: blue !important; 
 }
+.dropdown-menu a:hover{
+    color: blue;
+}
 #mycontactus{
     background-color: black;
     position: 2rem 2rem;
