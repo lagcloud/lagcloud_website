@@ -63,10 +63,14 @@ li {
     .container-fluid1 p{
         font-size: 25px !important;
     }
+    .container-fluid2{
+        margin-bottom: 90px !important;
+    }
     .container-fluid2 h1{
         font-size: 30px !important;
-        
+           
     }
+    
     .container-fluid2 p{
         font-size: 25px !important;
     }
