@@ -14,38 +14,79 @@
     <title>Lagcloud-Solutions</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid" style="color: white;">
-    <a class="navbar-brand" href=""><img src="images/lagcloud-removebg-preview.png" style="width: 100px; height: 100px;" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; margin-right: 15px;">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">ABOUT</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            SERVICES
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="">All Services</a></li>
-            <li><a class="dropdown-item" href="">Consultation</a></li>
-            
-          </ul>
-        <li id="mycontactus">
-            <a class="nav-link" href="">CONTACT US </a>
-        </li>
+    <section class="canva">
+      <nav class="navbar navbar-expand-lg navbar-light ">
         
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""><img src="images/lagcloud-removebg-preview.png" style="width: 100px; height: 100px;" alt=""></a>
+
+          <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExample"><img src="images/lagcloud-removebg-preview.png" style="width: 100px; height: 100px;" alt=""></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item">
+                  <a class="nav-link active" style="padding-left: 30px; " aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" style="padding-left: 30px !important; " href="">ABOUT</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link px-3 dropdown-toggle" style="padding-left: 20px !important;" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SERVICES
+                  </a>
+                  <ul class="dropdown-menu" style="border: 0px !important;" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="services.html">My Services</a></li>
+                    <li><a class="dropdown-item" href="">Another action</a></li>
+                    <li><a class="dropdown-item" href="">Something else here</a></li>
+                  </ul>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" style="padding-left: 30px !important;" href="">CONTACT US</a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </div> 
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; margin-right: 15px;">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SERVICES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="services.html">My Services</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li id="mycontactus">
+                  <a class="nav-link" href="">CONTACT US </a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </section>
 <div class="container-fluid2" style="padding:0px 24px;">
     <h1 style="font-size: 44px; font-weight: bolder;">Expert Software Development Services to Bring Your Vision to Life</h1>
     <p style="font-size: 25px;">Our software development company is dedicated to providing high-quality services that help businesses achieve their goals. We specialize in custom software development, creating tailored solutions that meet our clients' unique needs.

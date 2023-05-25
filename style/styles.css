@@ -25,12 +25,15 @@ li {
 .dropdown-menu a:hover{
     color: blue;
 }
-/*---Header----*/
+.offcanvas-body ul li{
+    margin-bottom: 10px;
+}
+/*---content----*/
 #mycontactus{
     background-color: black;
     position: 2rem 2rem;
     letter-spacing: 1px;
-    border-radius: 7px;
+    border-radius: 5px;
     
 }
 #mycontactus a{
@@ -42,11 +45,11 @@ li {
 }
 @media (max-width: 992px){
     
-    .navbar-nav{
-        text-align: center;
-    }
+    
     .dropdown-menu li{
-        text-align: center;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 10px !important;
     }
     .row h1{
         font-size: 30px !important;
