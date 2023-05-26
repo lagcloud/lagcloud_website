@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+/*---Header----*/
+li {
+    list-style: none;
+}
+.nav-link:hover{
+    color: blue !important; 
+}
+.dropdown-menu a:hover{
+    color: blue;
+}
+.offcanvas-body ul li{
+    margin-bottom: 20px !important;
+}
+
+.accordion-button:focus{
+    box-shadow: inherit !important;
+
+}  
+.accordion-body a{
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+/*---content----*/
+#mycontactus{
+    background-color: black;
+    position: 2rem 2rem;
+    letter-spacing: 1px;
+    border-radius: 5px;   
+}
+#mycontactus a{
+    color: white !important;   
+}
+.card-body .btn:hover{
+    background-color: blue;
+}
+@media (max-width: 992px){
+    .dropdown-menu li{
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 10px !important;
+    }
+    .row h1{
+        font-size: 30px !important;
+    }
+    .container-fluid1 p{
+        font-size: 25px !important;
+    }
+    .container-fluid2 h1{
+        font-size: 30px !important;
+        
+    }
+    .container-fluid2 p{
+        font-size: 25px !important;
+    }
+    #mycard .btn{
+        margin-top: 26px;
+    }
+    #navbarDropdown{
+        margin-left: 10px;
+    }
+}
