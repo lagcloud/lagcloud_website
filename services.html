@@ -33,26 +33,33 @@
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li><hr class="dropdown-divider"></li>
                 <li class="nav-item">
-                  <a class="nav-link" style="padding-left: 30px; " aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link active"  style="padding-left: 30px; " aria-current="page" href="index.html">HOME</a>
                 </li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" style="padding-left: 30px !important; " href="">ABOUT</a>
+                  <a class="nav-link active px-3" style="padding-left: 30px !important; " href="">ABOUT</a>
                 </li>
                 <li><hr class="dropdown-divider"></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link active px-3 dropdown-toggle" style="padding-left: 20px !important;" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    SERVICES
-                  </a>
-                  <ul class="dropdown-menu" style="border: 0px !important;" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="services.html">My Services</a></li>
-                    <li><a class="dropdown-item" href="">Another action</a></li>
-                    <li><a class="dropdown-item" href="">Something else here</a></li>
-                  </ul>
+                <li>
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" style="background-color: inherit; padding: 10px 0 10px 30px; border-bottom: 0px !important;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          SERVICES
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style="padding-left: 30px !important;">
+                          <a href="services.html">My services</a>
+                          <a href="">Other Services</a>
+                          <a style="margin-bottom: 0px;" href="">Other Services</a>
+                        </div>
+                      </div>
+                    </div>
                 </li>
                 <li><hr class="dropdown-divider"></li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" style="padding-left: 30px !important;" href="">CONTACT US</a>
+                  <a class="nav-link active px-3" style="padding-left: 30px !important;" href="">CONTACT US</a>
                 </li>
                 <li><hr class="dropdown-divider"></li>
               </ul>
@@ -61,10 +68,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent" >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 30px; margin-right: 15px;">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">ABOUT</a>
+                <a class="nav-link active" href="">ABOUT</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link active dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -78,7 +85,7 @@
                 </ul>
               </li>
               <li id="mycontactus">
-                  <a class="nav-link" href="">CONTACT US </a>
+                  <a class="nav-link active" href="">CONTACT US </a>
               </li>
               
             </ul>
