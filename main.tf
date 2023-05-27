@@ -37,7 +37,7 @@ resource "google_storage_bucket_object" "services_page" {
 
 resource "google_storage_bucket_object" "styles_css" {
   name         = "styles.css"
-  source       = "styles/styles.css"
+  source       = "style/styles.css"
   content_type = "text/css"
   bucket       = google_storage_bucket.lagcloud-solutions.id
 }
