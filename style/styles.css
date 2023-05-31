@@ -44,6 +44,7 @@ li {
     margin-top: 30px;
     text-decoration: none;
     color: black;
+    margin-left: -17px;
     
 }
 #mycontactus{
@@ -78,20 +79,21 @@ li {
     .nav-link{
         margin-bottom: 30px;
         margin-top: 30px;
-        
-    
-    
+    }
+    .accordion-button{
+        background-color: inherit !important;
+        padding: 0px 0px 0px 20px;
+        border-bottom: 0px !important;
     }
     
     #myservices{
         margin-left: 20px;
         display: none;
     }
-    .accordion{
-        display: block;
-        
-       
+    .accordion {
+        display: block;   
     }
+    
     #myaccordion-button{
         margin-left: 19px;
     }
