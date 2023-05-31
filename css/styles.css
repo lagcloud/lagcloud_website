@@ -1,0 +1,64 @@
+.container-fluid7 {
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-top: 10px;
+    height: 60px;
+}
+
+.form-floating {
+    margin-top: 20px;
+
+}
+
+.conatainer-fluid9 .btn {
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+
+
+}
+
+.conatainer-fluid9 p {
+    font-weight: lighter;
+    font-family: myFont;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu li {
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 10px !important;
+    }
+
+    .row h1 {
+        font-size: 30px !important;
+    }
+
+    .container-fluid1 p {
+        font-size: 25px !important;
+    }
+
+    .container-fluid2 h1 {
+        font-size: 30px !important;
+
+    }
+
+    .container-fluid2 p {
+        font-size: 25px !important;
+    }
+
+    #mycard .btn {
+        margin-top: 26px;
+    }
+
+    #navbarDropdown {
+        margin-left: 10px;
+    }
+}
