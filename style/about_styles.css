@@ -12,22 +12,18 @@
 
 }
 
-.conatainer-fluid9 .btn {
+.container-fluid9 .btn {
     width: 220px;
     height: 70px;
     font-size: 20px;
     letter-spacing: 5px;
-
-
-
 }
 
-.conatainer-fluid9 p {
+.container-fluid9 p {
     font-weight: lighter;
-    font-family: myFont;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-top: 10px;
-
 }
 
 @media (max-width: 992px) {
@@ -54,7 +50,7 @@
         font-size: 25px !important;
     }
 
-    #mycard .btn {
+    #myCard .btn {
         margin-top: 26px;
     }
 
