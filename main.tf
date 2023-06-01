@@ -35,9 +35,30 @@ resource "google_storage_bucket_object" "services_page" {
   bucket       = google_storage_bucket.lagcloud-solutions.id
 }
 
+resource "google_storage_bucket_object" "about_page" {
+  name         = "about.html"
+  source       = "about.html"
+  content_type = "text/html"
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
+resource "google_storage_bucket_object" "contact_page" {
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+  name         = "contact.html"
+  source       = "contact.html"
+  content_type = "text/html"
+}
+
 resource "google_storage_bucket_object" "styles_css" {
   name         = "styles.css"
   source       = "style/styles.css"
+  content_type = "text/css"
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
+resource "google_storage_bucket_object" "about_styles_css" {
+  name         = "about_styles.css"
+  source       = "style/about_styles.css"
   content_type = "text/css"
   bucket       = google_storage_bucket.lagcloud-solutions.id
 }
@@ -54,6 +75,20 @@ resource "google_storage_bucket_object" "large_image" {
   source       = "images/lagcloudimage.jpg"
   content_type = "image/jpg"
   bucket       = google_storage_bucket.lagcloud-solutions.id
+}
+
+resource "google_storage_bucket_object" "about_us_image" {
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+  name         = "about_us_image.jpg"
+  source       = "images/aboutus.jpg"
+  content_type = "image/jpg"
+}
+
+resource "google_storage_bucket_object" "contact_us_image" {
+  bucket       = google_storage_bucket.lagcloud-solutions.id
+  name         = "contact.jpg"
+  source       = "images/contact.jpg"
+  content_type = "image/jpg"
 }
 
 # Make bucket public by granting allUsers READER access
