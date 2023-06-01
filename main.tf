@@ -44,8 +44,8 @@ resource "google_storage_bucket_object" "about_page" {
 
 resource "google_storage_bucket_object" "contact_page" {
   bucket       = google_storage_bucket.lagcloud-solutions.id
-  name         = "contact.html"
-  source       = "contact.html"
+  name         = "contactus.html"
+  source       = "contactus.html"
   content_type = "text/html"
 }
 
