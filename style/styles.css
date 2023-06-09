@@ -58,7 +58,10 @@ li {
     margin-left: 15px;
 }
 .nav-link{
-    padding-left: 19px;
+    margin-right: 29px;
+}
+.navbar-nav{
+    margin-right: 19px;
 }
 #offcanvasExampleLabel img{
     width: 150px;
@@ -69,7 +72,7 @@ li {
     background-color: blue;
 }
 .container-fluid1{
-    padding: 0 24px;
+    padding: 0 47px;
 
 }
 .container-fluid1 .col-sm-6 h1{
@@ -90,7 +93,7 @@ li {
     font-size: 25px;
 }
 .container-fluid3{
-    padding: 0 24px;
+    padding: 0 47px;
 }
 .container-fluid3 h1{
     font-size: 44px;
@@ -100,7 +103,7 @@ li {
     font-size: 25px;
 }
 .container-fluid4{
-    padding: 0px 24px;
+    padding: 0px 47px;
 }
 .container-fluid4 h1{
     margin-bottom: 160px;
@@ -119,7 +122,7 @@ li {
     width: 100%;
 }
 #mycontent2{
-    padding: 27px;
+    padding: 48px;
 }
 #mycontent2 .row{
     row-gap: 1rem;
@@ -130,7 +133,6 @@ li {
 .card-body .btn{
     padding: 1rem 1rem;
 }
-
 @media (max-width: 992px){
     #myContactUs{
         background-color: white;
@@ -148,6 +150,20 @@ li {
         margin-left: 20px;
         display: none;
     }
+    .container-fluid1{
+        padding: 0 27px;
+    }
+    .container-fluid4{
+        padding: 0px 27px;
+    }
+    .container-fluid3{
+        padding: 0 27px;
+    }
+    #mycontent2{
+        padding: 28px;
+    }
+
+
     .dropdown-menu li{
         text-align: left;
         padding-left: 15px;
@@ -176,4 +192,7 @@ li {
     #navbarDropdown{
         margin-left: 10px;
     }
-}
+    .navbar-toggler{
+        margin-right: 25px;
+    }
+}    
