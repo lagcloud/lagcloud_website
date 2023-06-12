@@ -71,6 +71,7 @@ li {
 }
 .container-fluid1{
     padding: 0 47px;
+    margin-top: 20px;
 
 }
 .container-fluid1 .col-sm-6 h1{
@@ -92,6 +93,7 @@ li {
 }
 .container-fluid3{
     padding: 0 47px;
+    margin-top: 20px;
 }
 .container-fluid3 h1{
     font-size: 44px;
@@ -102,6 +104,7 @@ li {
 }
 .container-fluid4{
     padding: 0px 47px;
+    margin-top: 20px;
 }
 .container-fluid4 h1{
     margin-bottom: 100px;
