@@ -20,33 +20,15 @@ li {
 .dropdown-menu a:hover{
     color: blue;
 }
-.accordion{
-    display: none;
+.navbar{
+    background-color:rgb(100, 149, 237, 20%) ;
 }
 .nav-link:active{
     color: black;
 }
-
 .nav-link:active{
     color: black;
 }
-
-.accordion-button:focus{
-    box-shadow: inherit !important;
-
-}
-.accordion-item{
-    border: 0px !important;
-}
-.accordion-body a{
-    display: block;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    text-decoration: none;
-    color: black;
-    margin-left: -17px;
-}
-
 #myContactUs{
     background-color: black;
     letter-spacing: 1px;
@@ -54,55 +36,138 @@ li {
     margin-right: 7px;
     color: white;
 }
-
 #myContactUs a{
     color: white !important;
 }
-
 #myContactUs:hover{
     color: white !important;
 }
-
+.canva .navbar{
+    background-color: rgb(100, 149, 237, 30%)"
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-toggler{
+    margin-right: 16px;
+}
+.offcanvas-body .navbar-nav{
+    gap: 10px;
+    margin-left: 15px;
+}
+.nav-link{
+    margin-right: 29px;
+}
+.navbar-nav{
+    margin-right: 19px;
+}
+#offcanvasExampleLabel img{
+    width: 150px;
+}
 /*---content----*/
 
 .card-body .btn:hover{
     background-color: blue;
 }
+.container-fluid1{
+    padding: 0 47px;
 
+}
+.container-fluid1 .col-sm-6 h1{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.container-fluid1 .col-sm-6 p{
+    font-size: 25px;
+}
+.container-fluid2{
+    padding: 80px 0px 40px;
+}
+.container-fluid2 h1{
+    font-weight: bolder;
+    font-size: 44px;
+}
+.container-fluid2 p{
+    font-size: 25px;
+}
+.container-fluid3{
+    padding: 0 47px;
+}
+.container-fluid3 h1{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.container-fluid3 p{
+    font-size: 25px;
+}
+.container-fluid4{
+    padding: 0px 47px;
+}
+.container-fluid4 h1{
+    margin-bottom: 100px;
+    font-size: 44px;
+    font-weight: lighter;
+}
+.container-fluid4 h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container-fluid4 p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.container-fluid4 img{
+    width: 100%;
+}
+#mycontent2{
+    padding: 48px;
+}
+#mycontent2 .row{
+    row-gap: 1rem;
+}
+#mycontent3 .row{
+    row-gap: 1rem;
+}
+.card-title{
+    font-weight: bolder;
+}
+.card-body .btn{
+    padding: 1rem 1rem;
+}
+.card-body {
+    background-color: rgb(100, 149, 237, 10%);
+    
+}
 @media (max-width: 992px){
     #myContactUs{
         background-color: white;
         color: black;
         font-weight: lighter;
-        margin-left: 6px;
+        margin-left: 0;
         position: relative;
         bottom: 0px ;
-
     }
     .nav-link{
         margin-bottom: 30px;
         margin-top: 30px;
     }
-    .accordion-button{
-        background-color: inherit !important;
-        padding: 0px 0px 0px 20px;
-        border-bottom: 0px !important;
+    .offcanvas-header{
+        background-color: rgb(100, 149, 237, 30%);
     }
-
-    #myServices{
-        margin-left: 20px;
-        display: none;
+    .container-fluid1{
+        padding: 0 27px;
     }
-    .accordion {
-        display: block;
+    .container-fluid4{
+        padding: 0px 27px;
     }
-
-    #myAccordionButton{
-        margin-left: 19px;
+    .container-fluid3{
+        padding: 0 27px;
     }
-    .accordion-item{
-        margin-bottom: 30px;
-        margin-top: 30px;
+    #mycontent2{
+        padding: 28px;
+    }
+    #mycontent3{
+        padding: 3px;
     }
     .dropdown-menu li{
         text-align: left;
@@ -122,11 +187,14 @@ li {
     .container-fluid2 p{
         font-size: 25px !important;
     }
-
     #myCard .btn{
         margin-top: 26px;
     }
     #navbarDropdown{
         margin-left: 10px;
     }
-}
+    .navbar-toggler{
+        margin-right: 25px;
+    }
+    
+}    
