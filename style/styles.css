@@ -82,7 +82,10 @@ li {
     font-size: 25px;
 }
 .container-fluid2{
-    padding: 80px 0px 40px;
+    padding: 20px 0px 20px;
+}
+.container-fluid5{
+    padding: 0px 47px;
 }
 .container-fluid2 h1{
     font-weight: bolder;
@@ -93,7 +96,6 @@ li {
 }
 .container-fluid3{
     padding: 0 47px;
-    margin-top: 20px;
 }
 .container-fluid3 h1{
     font-size: 44px;
@@ -122,11 +124,11 @@ li {
 .container-fluid4 img{
     width: 100%;
 }
-#mycontent2{
-    padding: 48px;
-}
 #mycontent2 .row{
     row-gap: 1rem;
+}
+#mycontent2 p{
+    font-size: 25px;
 }
 #mycontent3 .row{
     row-gap: 1rem;
@@ -146,7 +148,7 @@ li {
         background-color: white;
         color: black;
         font-weight: lighter;
-        margin-left: 0;
+        margin-left: 0px;
         position: relative;
         bottom: 0px ;
     }
@@ -166,8 +168,8 @@ li {
     .container-fluid3{
         padding: 0 27px;
     }
-    #mycontent2{
-        padding: 28px;
+    .container-fluid5{
+        padding: 0px 27px;
     }
     #mycontent3{
         padding: 3px;
