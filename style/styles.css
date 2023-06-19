@@ -29,6 +29,22 @@ li {
 .nav-link:active{
     color: black;
 }
+
+.accordion-button:focus{
+    box-shadow: inherit !important;
+
+}
+.accordion-item{
+    border: 0px !important;
+}
+.accordion-body a{
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: -17px;
+}
 #myContactUs{
     background-color: black;
     letter-spacing: 1px;
