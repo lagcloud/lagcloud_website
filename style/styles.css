@@ -173,11 +173,7 @@ li {
     #mycontent3{
         padding: 3px;
     }
-    .dropdown-menu li{
-        text-align: left;
-        padding-left: 15px;
-        margin-bottom: 10px !important;
-    }
+    
     .row h1{
         font-size: 30px !important;
     }
@@ -190,6 +186,10 @@ li {
     }
     .container-fluid2 p{
         font-size: 25px !important;
+    }
+    .container-fluid3 h1{
+        font-size: 30px !important;
+
     }
     #myCard .btn{
         margin-top: 26px;
