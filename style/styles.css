@@ -65,10 +65,7 @@ li {
     width: 150px;
 }
 /*---content----*/
-
-.card-body .btn:hover{
-    background-color: blue;
-}
+/*---INDEX.HTML----*/
 .container-fluid1{
     padding: 0 47px;
     margin-top: 30px;
@@ -92,6 +89,7 @@ li {
 .container-fluid2 p{
     font-size: 25px;
 }
+/*---SERVICES.HTML----*/
 .container-fluid3{
     padding: 0 47px;
     margin-top: 30px;
@@ -102,26 +100,6 @@ li {
 }
 .container-fluid3 p{
     font-size: 25px;
-}
-.container-fluid4{
-    padding: 0px 47px;
-    margin-top: 30px;
-}
-.container-fluid4 h1{
-    margin-bottom: 100px;
-    font-size: 44px;
-    font-weight: lighter;
-}
-.container-fluid4 h2{
-    font-size: 30px;
-    font-weight: bolder;
-}
-.container-fluid4 p{
-    font-size: 25px;
-    font-weight: lighter;
-}
-.container-fluid4 img{
-    width: 100%;
 }
 #mycontent2{
     padding: 48px;
@@ -142,7 +120,33 @@ li {
     background-color: rgb(100, 149, 237, 10%);
     
 }
+.card-body .btn:hover{
+    background-color: blue;
+}
+/*---ABOUT.HTML----*/
+.container-fluid4{
+    padding: 0px 47px;
+    margin-top: 30px;
+}
+.container-fluid4 h1{
+    margin-bottom: 100px;
+    font-size: 44px;
+    font-weight: lighter;
+}
+.container-fluid4 h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container-fluid4 p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.container-fluid4 img{
+    width: 100%;
+}
+
 @media (max-width: 992px){
+    /*---Header----*/
     #myContactUs{
         background-color: white;
         color: black;
@@ -158,24 +162,15 @@ li {
     .offcanvas-header{
         background-color: rgb(100, 149, 237, 30%);
     }
+    #navbarDropdown{
+        margin-left: 10px;
+    }
+    .navbar-toggler{
+        margin-right: 25px;
+    }
+    /*---INDEX.HTML----*/
     .container-fluid1{
         padding: 0 27px;
-    }
-    .container-fluid4{
-        padding: 0px 27px;
-    }
-    .container-fluid3{
-        padding: 0 27px;
-    }
-    #mycontent2{
-        padding: 28px;
-    }
-    #mycontent3{
-        padding: 3px;
-    }
-    
-    .row h1{
-        font-size: 30px !important;
     }
     .container-fluid1 p{
         font-size: 25px !important;
@@ -187,18 +182,29 @@ li {
     .container-fluid2 p{
         font-size: 25px !important;
     }
+    /*---ABOUT.HTML----*/
+    .container-fluid4{
+        padding: 0px 27px;
+    }
+    /*---SERVICES.HTML----*/
+    .container-fluid3{
+        padding: 0 27px;
+    }
+    #mycontent2{
+        padding: 28px;
+    }
+    #mycontent3{
+        padding: 3px;
+    }
+    .row h1{
+        font-size: 30px !important;
+    }
     .container-fluid3 h1{
         font-size: 30px !important;
 
     }
     #myCard .btn{
         margin-top: 26px;
-    }
-    #navbarDropdown{
-        margin-left: 10px;
-    }
-    .navbar-toggler{
-        margin-right: 25px;
     }
     
 }    
